@@ -41,6 +41,7 @@ class OpenAPIRenderer(BaseRenderer):
         data = {}
         if swagger_settings.SECURITY_DEFINITIONS:
             data['securityDefinitions'] = swagger_settings.SECURITY_DEFINITIONS
+        data['basePath'] = swagger_settings.BASE_PATH
 
         return data
 

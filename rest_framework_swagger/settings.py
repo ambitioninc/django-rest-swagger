@@ -25,6 +25,7 @@ DEFAULTS = {
         'patch'
     ],
     'VALIDATOR_URL': '',
+    'BASE_PATH': '',
 }
 
 IMPORT_STRINGS = []
